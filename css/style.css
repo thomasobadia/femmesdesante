@@ -151,6 +151,12 @@ body.bg--intro{
     line-height: 36px;/* identical to box height */
     color: #0B346F;
 }
+@media (max-width: 992px){
+    .project__intro{
+        font-size: 20px;
+
+    }
+}
 
 .project__title{
     color: #FFFFFF;
@@ -236,7 +242,6 @@ body.bg--intro{
     font-weight: normal;
     font-size: 14px;
 
-
 }
 .project__container a:hover{
     text-decoration: none;
@@ -277,6 +282,7 @@ body.bg--intro{
 /* Header ***************************************************************************************************** */
 
 .header{
+    position: relative;
     height: 85%;
     width: 100%;
     background-image: url(../img/patricia-acensi-ferre.jpg);
@@ -287,6 +293,58 @@ body.bg--intro{
     filter: brightness(0.9);
     min-height: 630px;
 }
+.header.video--closed{
+    margin-bottom: 20%; 
+}
+
+.header__overlay{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    height: 60%;
+    min-height: 430px;
+    max-height: 800px;
+    width: 50%;
+    background: #0B346F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.header__overlay__container{
+    width: 50%;
+}
+.header__overlay__title{
+    font-weight: bold;
+    font-size: 20px;
+    color:#fff
+}
+.header__overlay__content{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color:#E5E5E5;
+}
+.header__overlay__cta__more{
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 40px;
+    transition: all ease-in 0.125s;
+    color : #FFFFFF;
+    font-weight: normal;
+    font-size: 14px;
+
+}
+.header__overlay__cta__more img{
+    height: 15px;
+    width: 15px;;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
 .header__category{
     position: relative;
     margin-left: 65px;
@@ -306,7 +364,8 @@ body.bg--intro{
     width:40px;
     border-bottom: 1px solid #B8B8B8;
   
-  }
+}
+
 
 .header__title{
     font-family: Poppins;
@@ -439,121 +498,7 @@ section.projects{
 
 /* INTERVIEW *************************************************************************** */
 
-.header__interview{
-    height: 100%;
-    width: 100%;
-    margin-top: -113px;
-}
 
-.row-full{
-    max-width: none;
-    position: relative;
-    height: 100%;
-}
-
-.header__interview__primary{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height:55%;
-    background-color: #fff;
-    padding: 30% 20% 15% 20%;
-}
-.header__interview__secondary{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 45%;
-    background-color: #0B346F;
-    padding: 20%;
-}
-.header__interview__img{
-    background-image: url(../img/patricia-acensi-ferre.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    transition: all ease-in-out 0.5s;
-}
-.header__interview__title{
-    font-weight: bold;
-    font-size: 18px;
-    color: #0B346F;
-    
-}
-.header__interview__primary__text{
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-    color: #575757;
-}
-
-.header__interview__secondary__text{
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-    color: #E5E5E5;
-}
-
-.cta--secondary{
-    display: inline-block;
-    position: relative;
-    margin-left: 60px;
-    font-weight: 500;
-    font-size: 16px;
-    color: #FFFFFF;
-    transition: all ease-out 0.225s;
-
-}
-.cta--secondary:after{
-  content:'';
-  position:absolute;
-  right:105%;
-  top: 50%;
-  width:50px;
-  border-bottom: 2px solid #8CCDF2;
-  transition: all ease-out 0.225s;
-
-}
-.cta--secondary:hover{
-    text-decoration: none;
-    color: #FFFFFF;
-    margin-left:55px;
-    
-}
-.cta--secondary:hover:after{
-    width:55px;
-    right:103%;
-}
-
-
-
-
-.interview__text{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 20px;
-    
-    color: #454545;
-    padding-top : 70px;
-}
-.interview__title{
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 51px;
-
-    color: #0B346F;
-    padding-top : 70px;
-}
-.interview__quote{
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 38px;
-
-    color: #0B346F;
-    padding-top : 70px;
-    padding-left: 25px;
-
-}
 
 
 /* FOOTER *************************************************************************** */
