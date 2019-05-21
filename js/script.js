@@ -1,25 +1,41 @@
-// $( ".navbar-toggler" ).click(function() {
-//     if($( ".navbar-collapse" ).hasClass( "show" )){
-//         $(".navbar").css("background-color", "#0B346F");
-//     }else {
-//         $(".navbar").css("background-color", "#0B346F");
-
-//     }
-//   })
-  
-
-$( ".header__interview__img" ).click(function() {
-
-    if($( ".header__interview__img" ).hasClass( "col-8" )){
-        $( ".header__interview__img" ).removeClass( "col-8" )
-        $( ".header__interview__img" ).addClass( "col-12" )
-        $( ".header__interview__side" ).css( "display", "none" )
-        
-    }else {
-        $( ".header__interview__img" ).removeClass( "col-12" )
-        $( ".header__interview__img" ).addClass( "col-8" )
-        setTimeout(() => {
-            $( ".header__interview__side" ).css( "display", "block" )
-        }, 500);
-    }
-  })
+$('.carousel__slick').slick({
+    dots: false,
+    initialSlide: 2,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 5,
+    swipeToSlide: true,
+    centerMode: true,
+    slidesToScroll: 1,
+    prevArrow: '<div class="slick-prev"></div>',
+    nextArrow: '<div class="slick-next"></div>',
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
