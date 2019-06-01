@@ -19,14 +19,6 @@ $('.carousel__slick').slick({
         }
       },
       {
-        breakpoint: 800,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true
-        }
-      },
-      {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
@@ -39,3 +31,17 @@ $('.carousel__slick').slick({
       // instead of a settings object
     ]
   });
+
+  document.querySelector(".header__cta__play").addEventListener('click', (e)=>{
+    document.querySelector(".full--height").style.display = "none"
+    document.querySelector(".yt-container").style.display = "block"
+    document.querySelector(".header").style.backgroundImage = "none"
+    document.querySelector(".header").style.height = "auto"
+    document.querySelector(".header").style.marginBottom = "100px"
+    document.querySelector(".header__overlay").style.top = "100%"
+    document.querySelector(".header__overlay").style.top = "100%"
+    document.querySelector("#video").src+="&autoplay=1"
+    e.preventDefault()
+
+  
+  })
