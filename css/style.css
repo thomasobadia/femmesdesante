@@ -2,6 +2,9 @@
     .container, .row {
         max-width: 1440px;
     }
+    .nav-item.nav-link--secondary{
+        color:#0B346F !important;
+    }
 }
 
 html,body{
@@ -751,7 +754,7 @@ section.projects{
 .carousel__slick__card{
     position: relative;
     margin: 0 10px;
-    height: 350px;
+    height: 380px;
     border-radius: 5px 5px 0 0;
     background-image: url(../img/patricia-acensi-ferre.jpg);
     background-position: center top;
@@ -859,6 +862,122 @@ section.projects{
     }
 }
 
+/* CONTACT ************************************************************************** */
+
+
+.contact__intro{
+    font-size: 35px;
+
+}
+.contact__h1{
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #0B346F !important;
+}
+.contact__h2{
+    color: #2E2E2E;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.contact__h3{
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #0B346F;
+    text-transform: uppercase;
+}
+h4.contact__h4 {
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+h4.contact__h4 a{
+    color: #0B346F !important;
+
+}
+.contact__socials img{
+    display: inline-block;
+    width: 20px;
+    margin-right:20px 
+}
+
+form{
+    text-align: center;
+
+}
+
+.form__title{
+    font-size:23px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    width: 50%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background: #21467B;
+  }
+
+
+  
+  .icon {
+    padding: 10px;
+    height: 40px;
+    background: none;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: #21467B;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D6D6D6;
+  }
+  
+  .input-field:focus .input-container {
+    border: 1px solid #fff;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #FFF;
+    color: #0B346F;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  @media(max-width:1200px){
+    .input-container {
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+}
 /* FOOTER *************************************************************************** */
 
 footer{
