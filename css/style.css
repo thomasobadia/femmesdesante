@@ -1,10 +1,14 @@
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     .container, .row {
         max-width: 1440px;
     }
     .nav-item.nav-link--secondary{
         color:#0B346F !important;
     }
+    .nav-item.nav-link--secondary:hover{
+        color:#0B346F !important;
+    }
+    
 }
 
 html,body{
