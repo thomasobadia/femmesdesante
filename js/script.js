@@ -37,11 +37,20 @@ $('.carousel__slick').slick({
     document.querySelector(".yt-container").style.display = "block"
     document.querySelector(".header").style.backgroundImage = "none"
     document.querySelector(".header").style.height = "auto"
-    document.querySelector(".header").style.marginBottom = "100px"
-    document.querySelector(".header__overlay").style.top = "100%"
-    document.querySelector(".header__overlay").style.top = "100%"
-    document.querySelector("#video").src+="&autoplay=1"
+
+    // document.querySelector("#video").src+="&autoplay=1"
     e.preventDefault()
+    if (window.matchMedia("(max-width: 1200px)").matches) {
+      document.querySelector(".header").style.minHeight = "0"
+      document.querySelector(".header").style.marginTop = "0"
+      console.log('azd')
+
+    }
+    else{
+
+      document.querySelector(".header").style.marginBottom = "100px"
+      document.querySelector(".header__overlay").style.top = "100%"
+    }
 
   
   })
