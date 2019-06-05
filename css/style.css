@@ -51,6 +51,31 @@ body.bg--intro{
     }
 }
 
+.scroll-up{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 5;
+    bottom: 2%;
+    height: 63px;
+    width: 63px;
+    right: 2%;
+    background: #88888888;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease-in 0.2s;
+}
+.scroll-up:hover{
+    background: #888888;   
+    transform: translateY(-5%) 
+}
+
+.scroll-up img{
+    height: 40px;
+    width: 40px;
+    transform: rotate(270deg)
+}
 
 /* HOME ******************************************************************************************************************* */
 .home__title{
@@ -276,7 +301,7 @@ body.bg--intro{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	z-index: 120;
+	z-index: 3;
 	font-size: 18px;
 	opacity: 0;
 	transition: .35s all linear
@@ -381,7 +406,7 @@ a.project__cta__more:hover{
 
 .header__overlay{
     position: absolute;
-    top: 85%;
+    top: 88%;
     left: 0;
     height: 60%;
     min-height: 390px;
@@ -1031,6 +1056,18 @@ form{
     text-align: center;
 
 }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
 
 .form__title{
     font-size:23px;
