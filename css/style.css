@@ -213,7 +213,7 @@ body.bg--intro{
 
     }
     #popup--text{
-        font-size: 30px; 
+        font-size: 25px; 
     }
 }
 
@@ -443,6 +443,12 @@ a.project__cta__more:hover{
     height:40px;
     margin-bottom: 40px;
 }
+
+.header__overlay__container__subtitle{
+    font-weight: normal;
+    font-size: 14px;
+    color:#D6D6D6;
+}
 .header__overlay__title{
     position: relative;
     font-weight: bold;
@@ -457,6 +463,10 @@ a.project__cta__more:hover{
     top: 150%;
     width:100%;
     border-bottom: 1px solid #FFFFFF;
+}
+.header__overlay__container__separator{
+    height: 70px;
+    border-right: 1px solid #FFFFFF;
 }
 .header__overlay__content{
     font-weight: 500;
