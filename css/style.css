@@ -370,7 +370,7 @@ a.project__cta__more:hover{
     position: relative;
     height: 85%;
     width: 100%;
-    background-color:#000;
+    background-color: #000 ;
     background-image: url(../img/photo-camille.jpg);
     background-position: center top;
     background-repeat: no-repeat;

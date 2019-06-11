@@ -1,5 +1,5 @@
 let i = 0;
-let txt = 'Salut Jayminbhai Patel ! \n J\'espère que tu aimes cet effet et que ça rend bien ! \n Salut aux autres aussi si vous regardez. Je ferai plus jamais de lorem ipsum !'
+let txt = 'Ce site a pour but de mettre en lumière des femmes inspirantes qui ont réalisé des initiatives de santé utiles.'
 let speed = 30; /* The speed/duration of the effect in milliseconds */
 
 const typeWriter = () => {
