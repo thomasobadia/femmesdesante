@@ -1,6 +1,6 @@
 let i = 0;
 let txt = 'Ce site a pour but de mettre en lumière des femmes inspirantes qui ont réalisé des initiatives de santé utiles.'
-let speed = 30; /* The speed/duration of the effect in milliseconds */
+let speed = 40; /* The speed/duration of the effect in milliseconds */
 
 const typeWriter = () => {
   if (i < txt.length) {
