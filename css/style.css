@@ -436,7 +436,7 @@ a.project__cta__more:hover{
     left: 0;
     height: 60%;
     min-height: 390px;
-    max-height: 800px;
+    max-height: 450px;
     z-index: 2;
     width: 50%;
     background: #0B346F;
@@ -496,8 +496,8 @@ a.project__cta__more:hover{
 }
 .header__overlay__content{
     font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 15px;
+    line-height: 22px;
     color:#E5E5E5;
     font-family: 'Open Sans', sans-serif;
 }
@@ -649,6 +649,7 @@ a.project__cta__more:hover{
     font-size: 14px;
     color: #FFFFFF;
     padding-left: 10px;
+    border-left: 1px solid #FFFFFF;
 }
 
 .header__duration__time__thin{
