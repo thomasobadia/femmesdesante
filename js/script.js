@@ -3,9 +3,10 @@ $('.carousel__slick').slick({
     initialSlide: 2,
     infinite: true,
     speed: 300,
-    slidesToShow: 5,
+    slidesToShow: 3.75,
     swipeToSlide: true,
     centerMode: true,
+    
     slidesToScroll: 1,
     prevArrow: '<div class="slick-prev"></div>',
     nextArrow: '<div class="slick-next"></div>',
