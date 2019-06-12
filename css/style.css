@@ -39,6 +39,12 @@ body.bg--intro{
     display: flex;
     align-items: center;
 }
+.absolute-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 
 .bg--secondary{
@@ -394,14 +400,13 @@ a.project__cta__more:hover{
 
 .header{
     position: relative;
-    height: 85%;
+    height: 100%;
     width: 100%;
     background-color: #3F3D56 ;
     background-image: url(../img/photo-camille.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -115px;
     filter: brightness(0.9);
     min-height: 630px;
     transition: all linear 1s;
