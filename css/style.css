@@ -898,7 +898,7 @@ section.projects{
 }
 .carousel__slick__card{
     position: relative;
-    margin: 0 20px;
+    margin: 0 10px;
     width: 90%;
     height: 400px;
     border-radius: 5px 5px 0 0;
@@ -920,13 +920,12 @@ section.projects{
 }
 .slick-center{
     transform: scale(1.1);
-
 }
 .slick-center{
     transition: all linear 0.2s;
 }
 .slick-center.carousel__slick__card{
-    filter:contrast(100%)
+    filter:contrast(100%);
 }
 .slick-center .carousel__slick__card__overlay{
     filter:contrast(100%)
