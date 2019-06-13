@@ -1079,6 +1079,7 @@ section.projects{
 }
 .contact__h1{
     margin-bottom: 20px;
+    margin-top: 8rem;
     font-weight: 700;
     font-size: 40px;
     color: #0B346F !important;
@@ -1114,6 +1115,10 @@ h4.contact__h4 a{
     width: 20px;
     margin-right:20px 
 }
+.padding-contact{
+    padding: 6rem;
+    margin-top: 2rem;
+}
 
 form{
     text-align: center;
@@ -1134,6 +1139,8 @@ form{
 
 .form__title{
     font-size:23px;
+    margin-bottom: 5rem;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -1149,7 +1156,7 @@ form{
   
   .icon {
     padding: 10px;
-    height: 40px;
+    height: 35px;
     background: none;
     color: white;
     min-width: 50px;
@@ -1180,7 +1187,7 @@ form{
     background-color: #FFF;
     color: #0B346F;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 600;
     padding: 10px;
     border: none;
     cursor: pointer;
