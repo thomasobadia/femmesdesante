@@ -1078,7 +1078,7 @@ section.projects{
 
 }
 .contact__h1{
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 40px;
     color: #0B346F !important;
@@ -1091,7 +1091,8 @@ section.projects{
     line-height: 22px;
 }
 .contact__h3{
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     font-weight: 600;
     font-size: 18px;
     color: #0B346F;
@@ -1105,7 +1106,7 @@ h4.contact__h4 {
     text-decoration-line: underline;
 }
 h4.contact__h4 a{
-    color: #0B346F !important;
+    color: #2E2E2E !important;
 
 }
 .contact__socials img{
