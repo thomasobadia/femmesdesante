@@ -750,8 +750,9 @@ section.projects{
     position: absolute;
     bottom: 105%;
     right: 105%;
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
+    transform: rotate(180deg);
     background: url(../img/quote-mark.svg);
     background-size: contain;
     background-position: center center;
@@ -760,7 +761,7 @@ section.projects{
 
 @media(min-width:1200px){
     .quote{
-        padding: 125px 100px 150px 100px;
+        padding: 180px 100px 150px 100px;
         font-size:30px;
         line-height: 38px;
     }
