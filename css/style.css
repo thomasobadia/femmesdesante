@@ -149,7 +149,7 @@ body.bg--intro{
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 12px;
-    padding: 10px 35px;
+    padding: 13px 35px;
     transition: all ease-in 0.125s;
     color : #E5E5E5;
 
@@ -165,7 +165,7 @@ body.bg--intro{
     box-sizing: border-box;
     border-radius: 4px;
     font-size: 12px;
-    padding: 10px 35px;
+    padding: 13px 35px;
     transition: all ease-in 0.125s;
     color : #0B346F;
 
@@ -345,7 +345,7 @@ body.bg--intro{
     background: rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 10px 35px;
+    padding: 12px 35px;
     transition: all ease-in 0.125s;
     color : #FFFFFF;
     font-weight: normal;
@@ -512,7 +512,7 @@ a.project__cta__more:hover{
     background: rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 10px 35px;
+    padding: 12px 35px;
     transition: all ease-in 0.125s;
     color : #FFFFFF;
     font-weight: normal;
@@ -599,7 +599,7 @@ a.project__cta__more:hover{
     background-color: #0B346F;
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 10px 35px;
+    padding: 12px 35px;
     transition: all ease-in 0.125s;
     color : #E5E5E5;
 }
@@ -620,7 +620,7 @@ a.project__cta__more:hover{
     background: rgba(255, 255, 255, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 10px 35px;
+    padding: 12px 35px;
     transition: all ease-in 0.125s;
     margin-left: 40px;
     color : #E5E5E5;
@@ -826,7 +826,7 @@ section.projects{
     background: #0B346F;
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 10px 35px;
+    padding: 12px 35px;
     transition: all ease-in 0.125s;
     color : #FFFFFF;
     font-weight: normal;
@@ -1190,6 +1190,7 @@ form{
     border-radius: 4px;
     width: 100%;
     padding: 15px;
+    padding-left: 10px;
     outline: none;
     background: #21467B;
     border: none;
@@ -1212,7 +1213,7 @@ form{
     text-transform: uppercase;
     font-weight: 600;
     font-size:12px;
-    padding: 10px 35px;
+    padding: 13px 35px;
     border: none;
     cursor: pointer;
     width: 30%;
