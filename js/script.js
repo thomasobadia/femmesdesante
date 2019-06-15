@@ -20,6 +20,15 @@ $('.carousel__slick').slick({
         }
       },
       {
+        breakpoint: 990,
+        settings: {
+          slidesToShow: 2.5,
+          centerMode: false,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+      {
         breakpoint: 600,
         settings: {
           slidesToShow: 1,
@@ -27,9 +36,8 @@ $('.carousel__slick').slick({
           infinite: true
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+
+
     ]
   });
 
@@ -49,7 +57,8 @@ $('.carousel__slick').slick({
     }
     else{
 
-      document.querySelector(".header").style.marginBottom = "100px"
+      document.querySelector(".quote").style.marginBottom = "100px"
+
       document.querySelector(".header__overlay").style.top = "100%"
     }
 
