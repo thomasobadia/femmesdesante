@@ -12,8 +12,12 @@ const typeWriter = () => {
 }
 
 setTimeout(() => {
+  typeWriter()
+}, 1000);
+
+setTimeout(() => {
     $('.home__popup__next').text("Suivant")
-}, (txt.length*speed + 500));
+}, (txt.length*speed + 1500));
 
 $('.home__popup__next').click(function(){
     $('.home__popup').fadeOut()
@@ -22,7 +26,7 @@ $('.home__popup__next').click(function(){
 
 
 
-typeWriter()
+
 
 
 
