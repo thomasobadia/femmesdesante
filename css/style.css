@@ -226,8 +226,11 @@ body.bg--intro{
     height: 50%;
 }
 .home__popup__logo{
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
     margin-bottom: 20px
 }
 .home__popup__container{
@@ -806,7 +809,7 @@ section.projects{
     color: #0B346F;
 }
 .interview__title--secondary{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 40px;
     color: #FFF;
 }
@@ -1087,8 +1090,21 @@ section.projects{
 
 }
 
-.form__title{
-    position: relative;
+
+.form__errors{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+    color:#eb4d4b;
+    font-size: 15px;
+}
+
+.form__confirmation{
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 2rem;
+
 }
 
 .form__title:after{
@@ -1170,7 +1186,9 @@ form{
 
 .form__title{
     font-size:23px;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+    position: relative;
+
     font-weight: 700;
     text-align: center;
 }
